@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?@0,100..900;1,100..900&family=Encode+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+
+.nav-bar {
+    height: 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #0d080e;
+    color: white;
+    font-family: 'Azeret Mono';
+}
+
+.nav-button {
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.button-orange {
+    background-color:orange;
+}
+
+.button-purple {
+    background-color:#0d080e;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.button-purple:hover {
+    color:#231629;
+    background-color: rgb(255, 255, 255);    
+}
+
+body{
+    margin: 0px;
+    background-color: #1b161d;
+}
+
+.main-body {
+    background-color: #1b161d;
+    background-size: cover;
+    height: 100%;
+    border: 2px solid;
+    border-color:orange;
+    color: white;
+    font-family: 'Encode Sans';
+    margin: 15px;
+    margin-top: 65px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.home-page-heading {
+    padding-top: 16%;
+}
+
+.sub-heading {
+    font-size: 35px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.orange-text {
+    color: #FF7A00;
+    background-color: #1b161d;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 50px;
+    color: white;
+    font-family: 'Azeret Mono';
+}
+
+.button {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    background-color: #FF7A00;
+    border-color: white;
+    border: 2px solid;
+    border-radius: 100px ;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 16%;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+    background-color: #1b161d;
+    color: #FF7A00;
+    border-color: #FF7A00
+}
+
+.about-page-heading {
+    padding-top: 15%;
+}
+
+.about-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.paragraph {
+    font-size: 20px;
+    padding-right: 100px;
+    padding-bottom: 8%;
+    padding-top: 10px;
+    line-height: 45px;
+}
+
+.about-image {
+    padding-top: 5%;
+}
+
+
+.project-page-heading {
+    padding-top: 9%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FF7A00;
+    border: 4px, solid;
+    border-color: white;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.project-heading {
+    font-size: 30px;
+    padding-left: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}   
+
+.project-paragraph {
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.project-button {
+    background-color: #1b161d;
+    border: 2px, solid;
+    border-color: white;
+    border-radius: 100px;
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    color:white;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.project-button:hover {
+    background-color: #ffffff;
+    color:#1b161d;
+    border-color: #1b161d
+}
+
+.project-image {
+    margin-right: 50px;
+    border: 2px, solid;
+    border-color: white;
+}
+
+.contact-page-heading {
+    padding-top: 11%;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.button-to-home {
+    margin-bottom: 11.25%;
+}
